@@ -2,16 +2,20 @@
 #include <stdlib.h>
 #include <math.h>
 
-float a,b,c,d, e;
-int a1, b1;
+float a,b,c,d, e;//Declarando variable
+int a1, b1; //Declarando variable
 int main()
 {
+	a= 5;// Asigno valor a variables
+	b= 10;
+	
 	system("clear");
-	printf("Dame el primer numero\n");
+	printf("Dame el \'primer\' numero:");
 	scanf("%f",&a);
 	a1 = a;
-	printf("Dame el segundo numero\n");
+	printf("\nDame el \'segundo\' numero:");
 	scanf("%f",&b);
+	
 	b1 = b;
 
 	printf("Suma\n");
